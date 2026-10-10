@@ -1,0 +1,31 @@
+# embeddings de personas enroladas (datos privados)
+data/enrolled/
+
+# base de datos vectorial de documentos privados
+data/chroma_db/
+
+# logs de decisiones
+data/decision_log.csv
+
+# ros2 bags
+data/*_bag/
+
+# build artifacts
+build/
+install/
+log/
+logs/
+
+# modelos descargados
+~/.insightface/
+~/.speechbrain/
+~/.cache/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# macos
+.DS_Store

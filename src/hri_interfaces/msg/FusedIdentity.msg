@@ -1,0 +1,10 @@
+std_msgs/Header header
+int32 track_id
+string name
+float32 face_confidence
+float32 voice_confidence
+float32 lip_confidence
+float32 fused_confidence
+uint8 decision
+string decision_label
+string pending_question
