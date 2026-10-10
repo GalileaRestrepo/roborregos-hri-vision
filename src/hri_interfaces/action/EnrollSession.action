@@ -1,0 +1,11 @@
+string person_name
+uint8 mode
+string document_path
+---
+bool success
+string message
+float32 quality_score
+---
+uint8 progress
+string status_message
+uint32 samples_collected
